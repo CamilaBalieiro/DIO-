@@ -10,16 +10,116 @@
     <hr/>
     <h2>Índice</h2>
     <ul>
+        <li><a href="#Definicao">O que são Tags?</a></li>
         <li><a href="#Titulo">Tags de Titulos</a></li>
         <li><a href="#Corpo">Corpo da Página</a></li>
         <li><a href="#Final">Final de Página</a></li>
-        <li><a href="#Bonus">Bônus </a></li>        
+        <li><a href="#Bonus">Bônus</a></li>        
     </ul>
 
-    <h2 id="Titulo"> Tags de Titulos</h2>
+    <h2 id="Definicao">O que são Tags?</h2>
+    <p>Primeiramente é necessario entender que HTML não é uma linguagm de Programação,
+        mas uma linguagem de marcação utilizada pela web para ser interpretada pelos 
+        navegadores, onde sua principal função e marcar e definir a estrutura de um pagina web,
+        sua principal caracteristica e o uso do sinal (< >).
+    </p>
+    <h2 id="Titulo">Tags de Titulos</h2>
+    <p>Na parte de titulos ou cabeçalho temos diversas tags, vamos mostrar as principais que todo 
+        iniciante deve conhecer:
+        <table border="1">
+            <tr>
+                <th><xmp><!DOCTYPE html></xmp></th>
+                <td>A tag !DOCTYPE informa ao navegador a versão do HTML que está sendo utilizada no documento. 
+                    Por exemplo: no HTML5, basta incluir !DOCTYPE html, e assim o navegador já saberá que se 
+                    trata de um documento na versão HTML5</td>
+            </tr>
+            <tr>
+                <th><xmp><html></html></xmp></th>
+                <td>Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os 
+                    elementos do seu documento. Todo documento HTML deve iniciar e finalizar com essa tag
+                </td>
+            </tr>
+            <tr>   
+                <th><xmp><head></head></xmp></th>
+                <td>Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível, porém é capaz de transmitir ao 
+                    navegador diversas informações muito úteis e essenciais a uma boa apresentação do seu 
+                    documento HTML;
+                </td>
+            </tr>
+            <tr>    
+                <th><xmp><title></title></xmp></th>
+                <td>ssa tag define o título da sua página, o nome que aparecerá na sua aba, 
+                    janela ou guia. Por esta razão, a tag >title> é de grande importância para o SEO
+                </td>
+            </tr>
+        </table>
+
+    </p>
     <h2 id="Corpo">Corpo</h2>
+    <table border="1">
+        <tr>
+            <th><xmp><body></body></xmp></th>
+            <td>Finalmente, a tag que representa o 
+                corpo do documento. Em síntese, é nessa tag que todos os elementos visíveis do seu site 
+                devem ser inseridos
+            </td>
+        </tr>
+        <tr>
+            <th><xmp><main></main></xmp></th>
+            <td>Essas tags representam o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado 
+                diretamente com o tópico central da página ou com a funcionalidade central da aplicação
+            </td>
+        </tr>
+        <tr>
+            <th><xmp><article></article></xmp></th>
+            <td>Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o 
+                conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo
+            </td>
+        </tr>
+        <tr>
+            <th><xmp><section></section></xmp></th>
+            <td>Essas tags definem uma sessão para sua página;
+            </td>
+        </tr>
+    </table>        
     <h2 id="Final">Final de Página</h2>
+    <table border="1">
+        <tr>
+            <th><xmp><footer></footer></xmp></th>
+            <td>Essas tags definem um rodapé para a página, geralmente utilizadas no final da página;
+            </td>
+        </tr>
+    </table>  
+
     <h2 id="Bonus">Bônus</h2>
+    <table border="1">
+        <tr>
+            <th>Tags HTML de listas</th>
+            <td>
+            <xmp><p>Minha lista ordenada:</p>
+                <ol>
+                  <li>item 1</li>
+                  <li>item 2</li>
+                  <li>item 3</li>
+                </ol>
+            </xmp>
+            </td>
+        
+        
+            
+            <td>
+            <xmp><p>Minha lista não ordenada:</p>
+                <ul>
+                  <li>item 1</li>
+                  <li>item 2</li>
+                  <li>item 3</li>
+                </ul>
+            </xmp>
+            </td>
+        
+        
+        </tr>
+    </table>   
     
 </body>
 </html>
