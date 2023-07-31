@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario de Cadastro</title>
+</head>
+<body>
+    <form name="signup" method="post" target="_blank" action="https://meusite.com.br/signup">
+        Nome:<input type="text" name="name"/><br>
+        Idade:<input type="number" name="age"/><br>
+        Senha:<input type="password" name="password"/><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form>
+        <label>Text: </label><input type="text"/><br>
+        <label>Number:</label><input type="numer"/><br>
+        <label>Button:</label><input type="button"/><br>
+        <label>Range:</label><input type="range"/><br>
+        <label>Color:</label><input type="color"/><br>
+        <label>E-mail:</label><input type="email"/><br>
+        <label>URL:</label><input type="url"/><br>
+        <label>Date:</label><input type="date"/><br>
+        <label>Checkbox:</label><input type="checkbox"/>  <input type="checkbox"/><br>
+        <label>Radio:</label><input type="radio" name="yes"/> </label><input type="radio" name="no"/><br>
+    </form>
+
+    <form method="get">
+        <h3>Voçê selecionaou: Pizza de Calabresa</h3>
+        <p>Quais Opcionais voçê deseja?</p>
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo<br>
+        <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa<br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim"/>Sim<br>
+        <input type="radio" name="borda" value="nao"/>Não<br>
+
+    </form>
+    
+</body>
+</html>
